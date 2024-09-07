@@ -342,9 +342,7 @@ class Laptop {
 public class LaptopDemo {
     public static void main(String[] args) {
         Laptop laptop = new Laptop();
-        laptop.addData("Dell", "Inspiron
-
-", 999.99);
+        laptop.addData("Dell", "Inspiron", 999.99);
         laptop.printData();
     }
 }
